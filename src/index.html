@@ -2,26 +2,95 @@
 <html>
     <head>
         <title>Build skeleton</title>
-    
-        <!--META BEGIN-->
+	
+		<!--META BEGIN-->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!--META END-->
-        
-        <!--FAVICON LINKS BEGIN-->
-        <!--FAVICON LINKS END-->
-    
-        <!--PRELOAD LINKS BEGIN-->
+		<!--META END-->
+	
+		<!--FAVICON LINKS BEGIN-->
+		<!--FAVICON LINKS END-->
+	
+		<!--PRELOAD LINKS BEGIN-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preload" href="/assets/css/fontawesome-all.min.css" as="style">
         <link rel="preload" href="main.css" as="style">
-        <!--PRELOAD LINKS END-->
-    
-        <!--STYLE LINKS BEGIN-->
+		<!--PRELOAD LINKS END-->
+	
+		<!--STYLE LINKS BEGIN-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+        <link href="/assets/css/fontawesome-all.min.css" rel="stylesheet"/>
         <link href="main.css" rel="stylesheet"/>
-        <!--STYLE LINKS END-->
+		<!--STYLE LINKS END-->
     </head>
     <body>
         <div id="page">
-            <h1 data-bs-toggle="tooltip" title="Main title">Build skeleton</h1>
+            <div class="container-fluid g-0">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <div class="main-padding bg-primary-dark font-md h-100">
+                            <div class="profile-pic">
+                                <img src="/assets/images/profile-pic.jpg" alt="Pintér Szabolcs">
+                            </div>
+                            <h1 class="fs-2 fw-normal text-white mb-0">
+                                Szabolcs<br>
+                                <span class="text-primary fw-bold">Pintér</span>
+                            </h1>
+                            <p class="mb-0 text-cv-gray">Frontend fejlesztő</p>
+                            <section class="mt-8">
+                                <h3 class="section-title section-title-primary-dark"><span>Profil</span></h3>
+                                <p class="text-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </section>
+                            <section class="mt-8">
+                                <h3 class="section-title section-title-primary-dark"><span>Contact</span></h3>
+                                <p>
+                                    <i class="fas fa-phone text-primary me-2"></i>
+                                    <a class="d-inline-block text-gray" href="tel:+36302824620">+36-30-282-4620</a>
+                                </p>
+                                <p>
+                                    <i class="fas fa-envelope text-primary me-2"></i>
+                                    <a class="d-inline-block text-gray" href="mailto:szabolcs.pinter.94@gmail.com">szabolcs.pinter.94@gmail.com</a>
+                                </p>
+                                <p>
+                                    <i class="fas fa-map-marker text-primary me-2"></i>
+                                    <a class="d-inline-block text-gray" href="https://goo.gl/maps/1e1ZYpXvgrrAJC8c6" target="_blank">Döbrököz, Újtelep u. 7, 7228</a>
+                                </p>
+                            </section>
+                            <section class="mt-8">
+                                <h3 class="section-title section-title-primary-dark"><span>Social Me</span></h3>
+                                <p>
+                                    <strong class="text-white">Facebook:</strong>
+                                    <a class="d-block text-gray fst-italic" href="https://www.facebook.com/szabolcspinter.me/" target="_blank">facebook.com/szabolcspinter.me</a>
+                                </p>
+                                <p>
+                                    <strong class="text-white">LinkedIn:</strong>
+                                    <a class="d-block text-gray fst-italic" href="https://www.linkedin.com/in/szabolcs-pinter94" target="_blank">linkedin.com/in/szabolcs-pinter94</a>
+                                </p>
+                                <p>
+                                    <strong class="text-white">GitHub:</strong>
+                                    <a class="d-block text-gray fst-italic" href="https://github.com/Gorack" target="_blank">github.com/Gorack</a>
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="main-padding bg-wild-sand h-100">
+                            <section>
+                                <h3 class="section-title section-title-wild-sand"><span>Work Experience</span></h3>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <h4 class="fs-6 fw-bold text-primary">Frontend Developer Intern</h4>
+                                        <p class="text-gray">2017-2018</p>
+                                    </div>
+                                    <div class="col-md-6"></div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <script src="main.bundle.js"></script>
     </body>

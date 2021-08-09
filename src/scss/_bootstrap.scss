@@ -1,8 +1,51 @@
 @import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/variables";
 
-/**
-    TODO: BOOTSTRAP VARIABLES HERE
- */
+$p-xxl-right: 30px;
+
+$spacer: 1rem;
+$spacers: (
+		0: 0,
+		1: $spacer * .25,
+		2: $spacer * .5,
+		3: $spacer,
+		4: $spacer * 1.5,
+		5: $spacer * 2,
+		6: $spacer * 3,
+		7: $spacer * 4,
+		8: $spacer * 5,
+		9: $spacer * 6,
+		10: $spacer * 7,
+);
+
+$primary: #19b5ff;
+$primary-dark: #0d1c2f;
+$cv-gray: #999999;
+$wild-sand: #f5f5f5;
+
+$theme-colors: (
+	primary: $primary,
+	primary-dark: $primary-dark,
+	'cv-gray': $cv-gray,
+	'wild-sand': $wild-sand,
+	gray: #666666
+);
+
+$font-roboto: 'Roboto', sans-serif;
+$font-open-sans: 'Open Sans', sans-serif;
+
+$font-family-base: $font-open-sans;
 
 @import "~bootstrap/scss/bootstrap";
+
+// Padding helpers
+
+.main-padding {
+	padding: 70px #{$p-xxl-right} 80px 30px;
+}
+
+
+// Helpers
+
+.ff-roboto {
+	font-family: $font-roboto;
+}

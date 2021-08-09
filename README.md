@@ -1,4 +1,4 @@
-# vhid
+# cv-build
 
 Empty project.
 

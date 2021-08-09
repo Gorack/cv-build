@@ -98,8 +98,7 @@ module.exports = (env, argv) => {
       new CopyPlugin({
         patterns: [
           {from: "./src/index.html", to: ""},
-          { from: "./src/assets/favicons", to: "assets/favicons" },
-          { from: "./src/assets/images", to: "assets/images" }
+          { from: "./src/assets", to: "assets" }
         ],
       }),
       new webpack.ProvidePlugin({})

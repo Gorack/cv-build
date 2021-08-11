@@ -1,0 +1,37 @@
+.block-title {
+	font-weight: 600;
+	font-size: 1rem;
+	color: $primary;
+	letter-spacing: .5px;
+
+	&,
+	& + p {
+		font-family: $font-roboto;
+		margin: 0;
+		text-transform: uppercase;
+	}
+
+	& + p {
+		font-weight: 300;
+		font-size: .875rem;
+		color: $cv-gray;
+	}
+}
+
+.block-sub-title {
+	font-family: $font-roboto;
+	font-weight: 600;
+	font-style: italic;
+	font-size: .875rem;
+	color: #333333;
+	letter-spacing: 1px;
+	margin: 0;
+	text-transform: uppercase;
+
+	& + p {
+		margin-top: 15px;
+		margin-bottom: 0;
+		font-size: .875rem;
+		color: $cv-gray;
+	}
+}
